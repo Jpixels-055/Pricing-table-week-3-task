@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*--Price section --*/
+.Pricing-section{
+    width: 100%;
+    min-height: 100vh;
+    background: #f3f4ff;
+}
+/*--section header--*/
+.header{
+    color: #0f172a;
+    text-align: center;
+    padding: 50px 0;
+}
+.header h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/*-- price row--*/
+.price-row{ 
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/*--Price col--*/
+.price-col{
+    background: #ffffff;
+    padding: 10% 15%;
+    border-radius: 10px;
+    color: #0f172a;
+    text-align: center;
+}
+.price-col h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.price-col p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.price-col h3{
+    font-size: 32px;
+    margin: 20px 0 40px;
+}
+.price-col h3 span{
+    font-size: 16px;
+}
+.price-col ul{
+    text-align: left;
+    list-style: none;
+    margin-bottom: 20px;
+    color: #0f172a;
+}
+.price-col ul li{
+    margin-bottom: 15px;
+}
+.price-col ul li::before{
+    content: "\2022";
+    color: #22e46c;
+    margin-right: 8px;
+}
+
+/*--pric card Button--*/
+.price-col button{
+    width: 100%;
+    font-weight: 600;
+    background: #8b5cf8;
+    border: none;
+    color: #fefefd;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 30px;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+.price-col button:hover{
+    background: #0f172a;
+    color: #ffffff;
+}
+
+/*-- active card--*/
+
+.price-col-active{
+    background: #8b5cf8;
+    padding: 10% 15%;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+.price-col-active h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.price-col-active p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.price-col-active h3{
+    font-size: 32px;
+    margin: 20px 0 40px;
+}
+.price-col-active h3 span{
+    font-size: 16px;
+}
+.price-col-active ul{
+    text-align: left;
+    list-style: none;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.price-col-active ul li{
+    margin-bottom: 15px;
+}
+.price-col-active ul li::before{
+    content: "\2022";
+    color: #22e46c;
+    margin-right: 8px;
+}
+/*--Active card Button--*/
+.price-col-active button{
+    width: 100%;
+    font-weight: 600;
+    background: #fbfbfc;
+    border: none;
+    color: #0f172a;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 30px;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+.price-col-active button:hover{
+    background: #0f172a;
+    color: #ffffff;
+}
